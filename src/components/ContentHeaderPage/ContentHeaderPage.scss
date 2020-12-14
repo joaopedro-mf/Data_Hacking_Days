@@ -1,0 +1,45 @@
+.ContentHeaderPage {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 5em;
+  justify-content: space-between;
+  margin: 10px;
+
+  &__title {
+    margin-left: 2em;
+    color:#E95A0C;
+  }
+  &__icon {
+    padding-top: 15px;
+    width: 12%;
+  }
+  &__logo {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ContentHeaderPage {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 5em;
+    justify-content: space-between;
+    margin: 10px;
+
+    &__title {
+      margin-left: 0.5em;
+    }
+
+    &__logo {
+      width: 0%;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.table{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2em;
+    border-radius: 5px;
+
+    &__options {
+        display: flex;
+        flex-direction: row;
+        margin:10px;
+        margin-left: 75%;
+        button{
+            margin-left:5px;
+            padding: 0;
+            svg{
+                margin:0;
+                
+            }
+        }
+        
+    }
+
+    &__search {
+        // margin:5px;
+        align-items: left;
+    }
+    
+    &__header{
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        font-weight: bold;
+        background-color: 	#DCDCDC;
+
+        &-ID{
+            width:20%
+        }
+        &-NAME{
+            width:60%;
+            text-align: left;
+        }
+    }
+
+    &__content{
+        height: 30em;
+        overflow: auto;
+    }
+
+}

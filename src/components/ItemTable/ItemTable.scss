@@ -1,0 +1,18 @@
+.itemtable{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 15px;
+    height: 30px;
+    border-radius: 10px;
+    color:black;
+
+    &__id{
+        width: 20%;
+    }
+    &__name{
+        width:60%;
+        text-align: left;
+    }
+}

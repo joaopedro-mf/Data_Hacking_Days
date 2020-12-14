@@ -1,0 +1,43 @@
+.Login{
+    position: absolute;
+    width: 100%;
+
+    &__information{
+        margin-top: 5em;
+        color: white;
+        background-color: #008C58;
+        border-radius: 20px;
+        position: absolute;
+        width: 30%;
+        margin-left: 35%;
+
+        button{
+            margin-top: 20px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .Login{
+        position: absolute;
+        width: 100%;
+    
+    
+        &__information{
+            margin-top: 5em;
+            background-color: #008C58;
+            border-radius: 20px;
+            position: absolute;
+            width: 50%;
+            margin-left: 5em;
+            height: auto;
+            button{
+                margin-top: 20px;
+            }
+        }
+    
+    }
+    
+  
+}

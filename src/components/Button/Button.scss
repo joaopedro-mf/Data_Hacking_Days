@@ -1,0 +1,27 @@
+.Button{
+    height: 30px;
+    &__item{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+    &__title{
+        padding-top: 8px;
+        margin: 0;
+    }
+    &__icon{
+        svg{
+            margin-top: 0;
+            
+        }
+        
+    }
+    #small{
+        svg{
+            width:15%}
+        }
+    #medium{
+        svg{
+            width:40%}
+        }
+}

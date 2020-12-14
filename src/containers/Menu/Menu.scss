@@ -1,0 +1,59 @@
+.Menu {
+  background-color: #008C58;
+  width: 30%;
+  height: 100%;
+  font-size: large;
+  color: white;
+  &__header {
+    padding-top: 50px;
+    height: 100px;
+  }
+  &__footer {
+    button {
+      background-color: transparent;
+      border: none;
+      width: 100%;
+      font-size: large;
+    }
+
+    svg {
+      fill: whitesmoke;
+    }
+  }
+  &__itens {
+    svg {
+      fill: whitesmoke;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Menu {
+    background-color: #77b1c5;
+    width: 50%;
+    height: 100%;
+    font-size: large;
+    color: white;
+    position: fixed;
+
+    &__header {
+      width: 0%;
+      height: 0%;
+    }
+    
+    &__footer {
+      width: 0%;
+      button {
+        width: 0%;
+      }
+      svg {
+        width: 0%;
+      }
+    }
+    &__itens {
+      svg {
+        width: 0%;
+      }
+    }
+  }
+}
